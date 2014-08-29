@@ -1,0 +1,28 @@
+{
+  "name": "path-to-regexp",
+  "description": "Express style path to RegExp utility",
+  "version": "1.0.1",
+  "scripts": {
+    "test": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec"
+  },
+  "keywords": [
+    "express",
+    "regexp",
+    "route",
+    "routing"
+  ],
+  "component": {
+    "scripts": {
+      "path-to-regexp": "index.js"
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/component/path-to-regexp.git"
+  },
+  "devDependencies": {
+    "istanbul": "~0.3.0",
+    "mocha": "~1.21.4"
+  }
+}
